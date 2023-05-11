@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/BundleBuild/static/css/main.073c9b0a.css",
+    "main.js": "/BundleBuild/static/js/main.c3695228.js",
+    "static/js/787.ad673406.chunk.js": "/BundleBuild/static/js/787.ad673406.chunk.js",
+    "static/media/logo.svg": "/BundleBuild/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/BundleBuild/index.html",
+    "main.073c9b0a.css.map": "/BundleBuild/static/css/main.073c9b0a.css.map",
+    "main.c3695228.js.map": "/BundleBuild/static/js/main.c3695228.js.map",
+    "787.ad673406.chunk.js.map": "/BundleBuild/static/js/787.ad673406.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.c3695228.js"
+  ]
+}
