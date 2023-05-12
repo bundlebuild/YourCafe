@@ -1,0 +1,42 @@
+.yc-header {
+    padding: var(--pageMargin);
+    border-bottom: 1px solid #ddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.yc-header-logo {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.yc-header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.yc-header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.yc-header-link-item {
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    transition: ease top 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.yc-header-link-item:hover {
+    top: -2px;
+}
