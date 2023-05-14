@@ -52,21 +52,51 @@
     opacity: 0.9;
 }
 
-.section-step-icon {
-    width: 100%;
+.btn-hero {
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    padding: 10px;
+    border-radius: 9999px;
+    font-size: 17px;
+    color: var(--secondary);
+    font-family: "Circular"!important;
+    text-align: center;
+    cursor: pointer;
+    position:relative;
+    top: 0px;
+    padding-left: 18px;
+    padding-right: 18px;
+    transition: ease top 0.2s;   
+}
+
+.btn-hero:hover {
+    top: -2px;
+    opacity: 0.9;
+}
+
+.page-container {
+    width: 1185px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.page-header {
+    color: var(--dark);
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.page-section-content {
     display: flex;
+    flex-direction: row;
+    gap: 80px;
+    overflow-x: scroll;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 12px;
+    height: 250px;
 }
 
-.section-step-icon svg {
-    width: 80px;
-    height: 170px;
-}
-
-.section-step-name {
-    font-size: 25px;
-    font-weight: 600;
+.rupee:before {
+    content: "\20B9";
+    margin-right: 0.1rem;
 }

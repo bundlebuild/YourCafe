@@ -1,12 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
+import Home from './pages/Home';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Routes,
+  RouterProvider,
+  BrowserRouter
+} from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Header />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Home />
+          }
+          />
+      </Routes>
+      </BrowserRouter>
   );
 }
 

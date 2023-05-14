@@ -1,12 +1,17 @@
 :root {
-    --primary: #2f2f2f;
-    --secondary: #1B59F9;
-    --darkSecondary: #1245c7;
-    --black: #424242;
-    --gray: #555555;
+    --primary: #000;
+    --darkPrimary: #000;
+    --secondary: #ff406c;
+    --darkSecondary: #d2113e;
+    --lightSecondary: #f9d8e0;
+    --dark: #333;
+    --mobile-bg: #0f0f0f0;
+    --bg-red: #ee2f4b;
+    --bg-blue: #1a61e9;
     --white: #fff;
     --orange: #FC801A;
     --purple: #694BEA;
+    --gray: #f2f2f2f2;
     --darkGray: #ccc;
     --green: #3A955D;
     --calm: #FAE6D7;
