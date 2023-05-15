@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/YourCafe/static/css/main.fac8ac0a.css",
+    "main.css": "/YourCafe/static/css/main.1db12ad0.css",
     "main.js": "/YourCafe/static/js/main.5caf8621.js",
     "static/js/787.ad673406.chunk.js": "/YourCafe/static/js/787.ad673406.chunk.js",
+    "static/media/cafeHero.jpg": "/YourCafe/static/media/cafeHero.dd7eb259d69f8cf5638d.jpg",
     "static/media/latteBackground.jpeg": "/YourCafe/static/media/latteBackground.12039ad80794edb6023e.jpeg",
+    "static/media/fuzzyBackground.png": "/YourCafe/static/media/fuzzyBackground.edc854dc90f8d399ab11.png",
     "static/media/whitefieldBackground.jpeg": "/YourCafe/static/media/whitefieldBackground.11e5a7b6dfcd29628ecc.jpeg",
     "static/media/coffee_beans.jpeg": "/YourCafe/static/media/coffee_beans.ab6d87e72f5ceae88f68.jpeg",
     "static/media/filterCoffeeSpreadBackground.png": "/YourCafe/static/media/filterCoffeeSpreadBackground.76bfd7e7cc438533128b.png",
@@ -13,12 +15,12 @@
     "static/media/close.svg": "/YourCafe/static/media/close.2d4ecae55d94008b1aec.svg",
     "index.html": "/YourCafe/index.html",
     "static/media/hamburger.svg": "/YourCafe/static/media/hamburger.7ba2bab65f05dc7444b1.svg",
-    "main.fac8ac0a.css.map": "/YourCafe/static/css/main.fac8ac0a.css.map",
+    "main.1db12ad0.css.map": "/YourCafe/static/css/main.1db12ad0.css.map",
     "main.5caf8621.js.map": "/YourCafe/static/js/main.5caf8621.js.map",
     "787.ad673406.chunk.js.map": "/YourCafe/static/js/787.ad673406.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fac8ac0a.css",
+    "static/css/main.1db12ad0.css",
     "static/js/main.5caf8621.js"
   ]
 }
