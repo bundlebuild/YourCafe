@@ -16,7 +16,7 @@ const AboutUs = () => {
 
             <div class="page-hero-text desktop-only">An in-house, cat cafe <div class="hero-text-image cat-image"></div>, located </div><div class="page-hero-text desktop-only"><div class="hero-text-image whitefield-image"></div> in Whitefield, Benglauru.</div></div>
             </div>
-            <div class="mobile-hero-text page-hero-text mobile-only">An in-house, cat cafe<br />located, in Whitefield Benglauru.</div>
+            <div class="about-mobile-hero-text page-hero-text mobile-only">An in-house, cat cafe<br />located, in Whitefield Benglauru.</div>
         </div>
     </div>
   )
