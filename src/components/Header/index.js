@@ -37,7 +37,7 @@ const Header = ({setMenuOpen}) => {
                         <a href="#LOCATION">Location</a>
                     </li>
                     <li className="page-layout-nav-item">
-                        <a href="#CONTACT">Contact Us</a>
+                        <a href="#LOCATION">Contact Us</a>
                     </li>
                 </ul>
             </nav>
