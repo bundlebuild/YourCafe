@@ -21,8 +21,8 @@
     text-align: center;
 }
 
-@media all and(max-width: 767px) {
-    .cafe-service-item {
-        width: 100%!important;
-    }
+@media all and (max-width: 767px) {
+  .cafe-service-item {
+    width: 100% !important;
+  }
 }
