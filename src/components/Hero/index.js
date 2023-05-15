@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
         </FadeUp>
         <div className="page-hero-cta">
-            <button className="btn-primary">See Locations</button>
+            <button className="btn-primary" onClick={() => window.location = "#LOCATIONS"}>See Locations</button>
         </div>
     </div>
   )
