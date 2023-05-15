@@ -1,0 +1,11 @@
+.contact-number-item {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.contact-number-label {
+    font-weight: 600;
+}

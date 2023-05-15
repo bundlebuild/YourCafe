@@ -1,0 +1,102 @@
+.page-header {
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    padding: 18px;
+    z-index: 10000;
+}
+
+.page-layout-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.page-layout-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.page-header-location {
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #ddd;
+    padding-left: 18px;
+    color: #555;
+}
+
+.page-layout-nav ul {
+    display: flex;
+    padding: 0px;
+    margin: 0;
+    padding-right: var(--pageMargin);
+    align-items: center;
+    height: 100%;
+}
+
+.page-layout-nav ul li {
+    display: inline-block;
+    margin-left: var(--pageMargin);
+    margin-right: var(--pageMargin);
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    transition: ease top 0.2s;
+}
+
+.page-layout-nav ul li:hover {
+    top: -2px;
+}
+
+.menu-hamburger {
+    z-index: 1001;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.black-transparent-header.transparent-header .menu-hamburger .btnMenu {
+    background-image: url(../../../public/assets/images/svg/hamburger.svg);
+}
+.transparent-header .menu-hamburger .btnMenu {
+    background-image: url(../../../public/assets/images/svg/hamburger.svg);
+}
+.menu-hamburger .btnMenu {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 32px;
+    background-color: transparent;
+    color: #4d4d4d;
+    font-size: 0;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    background-image: url(../../../public/assets/images/svg/hamburger.svg);
+    border-radius: 2px;
+}
+
+@media all and (max-width: 767px) {
+    .page-header {
+        padding: 0px!important;
+    }
+
+    .page-layout-content {
+        padding: 18px!important;
+    }
+}

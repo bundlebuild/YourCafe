@@ -1,5 +1,5 @@
 .desktop-only {
-    display: block;
+    display: inherit!important;
 }
 
 .mobile-only {
@@ -8,7 +8,7 @@
 
 @media all and (max-width: 767px) {
     .desktop-only {
-        display: none;
+        display: none!important;
     }
 
     .mobile-only {
@@ -27,13 +27,16 @@
 }
 
 .btn-primary {
-    background-color: var(--primary);
-    border: 1px solid var(--primary);
+    background-color: var(--dark);
+    border: 1px solid var(--dark);
     padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
     border-radius: 9999px;
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #fff;
-    font-family: "Circular"!important;
+    font-family: "Familjen Grotesk"!important;
+    font-weight: 600;
     text-align: center;
     cursor: pointer;
     position:relative;
@@ -99,4 +102,21 @@
 .rupee:before {
     content: "\20B9";
     margin-right: 0.1rem;
+}
+
+.page-section-layout {
+    padding: 3rem;
+}
+
+.page-section-layout-heading {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.heading-colour {
+    color: var(--primary);
+}
+
+.small-btn {
+    font-size: 15px;
 }

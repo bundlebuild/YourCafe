@@ -1,0 +1,19 @@
+.cafe-services-wrapper {
+    padding: 3.5rem;
+}
+
+.cafe-services-container {
+    display: flex;
+    flex-direction: row;
+    gap: var(--pageMargin);
+    margin: 0 auto;
+    width: 1024px;
+}
+
+@media all and (max-width: 767px) {
+    .cafe-services-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}

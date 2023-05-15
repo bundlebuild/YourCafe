@@ -1,0 +1,26 @@
+.menu-section {
+    background-color: var(--lightPrimary);
+}
+
+.menu-section-subheading {
+    font-size: 25px;
+}
+
+.menu-items-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: var(--pageMargin);
+    overflow-x: scroll;
+}
+
+.menu-section-heading-container {
+    width: 850px;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 767px) {
+    .menu-section-heading-container {
+        width: 100%!important;
+    }
+}

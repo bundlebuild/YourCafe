@@ -1,0 +1,28 @@
+.cafe-service-item {
+    padding: 18px;
+    text-align: center;
+    width: 100%;
+}
+
+.cafe-service-item-heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.cafe-service-item-description {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.cafe-service-item-content {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    text-align: center;
+}
+
+@media all and(max-width: 767px) {
+    .cafe-service-item {
+        width: 100%!important;
+    }
+}

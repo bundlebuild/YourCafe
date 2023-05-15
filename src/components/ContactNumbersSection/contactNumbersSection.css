@@ -1,0 +1,6 @@
+.contact-numbers-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-left: 25px;
+}

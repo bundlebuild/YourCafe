@@ -1,0 +1,10 @@
+.footer {
+    background-color: var(--dark);
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+}

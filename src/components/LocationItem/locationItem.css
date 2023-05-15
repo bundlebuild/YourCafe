@@ -1,0 +1,33 @@
+.location-item-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-right: 1px solid #ddd;
+    padding-right: 25px;
+}
+.location-item-heading {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.location-item-address {
+    color: #555;
+    font-size: 18px;
+}
+
+@media all and (max-width: 767px) {
+    .contact-numbers-section {
+        padding-left: 0px!important;
+    }
+
+    .location-item-card {
+        border-right: 0px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+    }
+
+    .contact-numbers-section {
+        padding-top: 20px;
+    }   
+}

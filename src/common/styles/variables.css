@@ -1,10 +1,10 @@
 :root {
-    --primary: #000;
-    --darkPrimary: #000;
+    --primary: #136B57;
+    --lightPrimary: #01765542;
+    --dark: #000;
     --secondary: #ff406c;
     --darkSecondary: #d2113e;
     --lightSecondary: #f9d8e0;
-    --dark: #333;
     --mobile-bg: #0f0f0f0;
     --bg-red: #ee2f4b;
     --bg-blue: #1a61e9;
@@ -18,4 +18,6 @@
     --pageMargin: 24px;
     --standOutIndex: 1000;
     --navIndex: 100000;
+    --bundlebuildPrimary: #434343;
+    --bundlebuildSecondary: #FC801B;
 }

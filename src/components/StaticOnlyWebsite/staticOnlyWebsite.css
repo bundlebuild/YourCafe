@@ -1,0 +1,10 @@
+.static-only-website-heading {
+    padding: 10px;
+    background-color: var(--bundlebuildPrimary);
+    text-align: center;
+    color: var(--white);
+}
+
+.static-only-website-heading a {
+    color: var(--bundlebuildSecondary);
+}

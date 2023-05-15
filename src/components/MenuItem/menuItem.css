@@ -1,0 +1,36 @@
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    transition: ease top 0.2s;
+}
+
+.menu-item:hover {
+    top: -5px;
+}
+
+.menu-item-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 9999px;
+}
+.menu-item-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.menu-item-price {
+    font-size: 1.2rem;
+}
+
+.menu-item-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+    object-fit: cover;
+}

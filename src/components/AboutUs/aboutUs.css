@@ -1,0 +1,53 @@
+.about-us-image {
+    width: 100%;
+    height: 155px;
+    background: url(../../../public/assets/images/cafeHero.jpg);
+    background-size: cover;
+    background-position-y: -480px;
+}
+.about-us-layout {
+    background-image: url('../../../public/assets/images/fuzzyBackground.png');
+}
+
+@media all and (max-width: 767px) {
+    .about-us-layout {
+        position: relative;
+        background-image: url('../../../public/assets/images/whitefieldBackground.jpeg');
+        background-position: bottom;
+        background-size: cover;
+    }
+
+    .about-us-layout::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* change the color and opacity as desired */
+      }
+
+      .page-hero-content {
+        z-index: 10000;
+      }
+
+      .mobile-hero-text {
+        position: relative;
+        z-index: 10000;
+      }
+}
+
+.about-us-layout-heading {
+    color: var(--white);
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.about-us-layout-content .page-hero-content {
+
+}
+
+.about-us-layout-heading {
+    font-size: 5.5rem;
+}
