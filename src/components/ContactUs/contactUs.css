@@ -6,8 +6,13 @@
 
 .contact-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 12px;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+@media all and (max-width: 767px) {
+    .contact-container {
+        flex-direction: column
+    }
 }
