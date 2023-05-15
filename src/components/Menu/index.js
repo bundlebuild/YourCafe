@@ -6,7 +6,7 @@ import FadeUp from '../Animations/FadeUp';
 
 const Menu = () => {
   return (
-    <div className="menu-section page-section-layout">
+    <div className="menu-section page-section-layout" id="MENU">
         <div className="menu-section-heading-container">
             <FadeUp>
                 <div className="menu-section-heading heading-colour page-section-layout-heading">

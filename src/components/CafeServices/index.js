@@ -30,7 +30,7 @@ const CafeServices = () => {
         },
     ]
   return (
-    <div className="cafe-services-wrapper">
+    <div className="cafe-services-wrapper" id="SERVICES">
       
         <div className="cafe-services-container">
             {cafeServices.map((y) => {

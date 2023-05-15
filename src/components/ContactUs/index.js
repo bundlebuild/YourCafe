@@ -5,7 +5,7 @@ import ContactNumbersSection from '../ContactNumbersSection';
 
 const ContactUs = () => {
   return (
-    <div className="page-section-layout">
+    <div className="page-section-layout" id="LOCATION">
         <div className="menu-section-heading-container">
             <div>
                 <div className="menu-section-heading page-section-layout-heading">

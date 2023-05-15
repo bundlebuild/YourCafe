@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css';
-const Header = () => {
+const Header = ({setMenuOpen}) => {
   return (
     <div className="page-header">
         <div className="page-layout-content">
@@ -21,23 +21,23 @@ const Header = () => {
                     Whitefield, Bengaluru
                 </div>
             </div>
-            <div className="menu-hamburger mobile-only"><button type="button" className="btnMenu"></button></div>
+            <div className="menu-hamburger mobile-only"><button type="button" className="btnMenu" onClick={() => setMenuOpen(true)}></button></div>
             <nav className="page-layout-nav desktop-only">
                 <ul>
                     <li className="page-layout-nav-item">
-                        About
+                        <a href="#ABOUTUS">About</a>
                     </li>
                     <li className="page-layout-nav-item">
-                        Services
+                        <a href="#SERVICES">Services</a>
                     </li>
                     <li className="page-layout-nav-item">
-                        Menu
+                        <a href="#MENU">Menu</a>
                     </li>
                     <li className="page-layout-nav-item">
-                        Location
+                        <a href="#LOCATION">Location</a>
                     </li>
                     <li className="page-layout-nav-item">
-                        Contact Us
+                        <a href="#CONTACT">Contact Us</a>
                     </li>
                 </ul>
             </nav>

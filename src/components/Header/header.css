@@ -2,8 +2,9 @@
     border-bottom: 1px solid #ddd;
     display: flex;
     position: fixed;
+    flex-direction: column;
     background-color: #fff;
-    width: 100%;
+    width: -webkit-fill-available;
     padding: 18px;
     z-index: 10000;
 }
@@ -13,7 +14,7 @@
     flex-direction: row;
     justify-content: space-between;
     max-width: 1024px;
-    width: 100%;
+    width: -webkit-fill-available;
     margin: 0 auto;
 }
 
@@ -91,6 +92,24 @@
     border-radius: 2px;
 }
 
+
+.menu-hamburger .btnMenu.close {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 32px;
+    background-color: transparent;
+    color: #4d4d4d;
+    font-size: 0;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    background-image: url(../../../public/assets/images/svg/close.svg);
+    border-radius: 2px;
+}
+
 @media all and (max-width: 767px) {
     .page-header {
         padding: 0px!important;
@@ -99,4 +118,9 @@
     .page-layout-content {
         padding: 18px!important;
     }
+}
+
+.page-layout-nav-item a{
+    color: inherit;
+    text-decoration: none;
 }

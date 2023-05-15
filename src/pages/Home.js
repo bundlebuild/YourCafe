@@ -8,11 +8,18 @@ import ContactUs from '../components/ContactUs'
 import StaticOnlyWebsite from '../components/StaticOnlyWebsite'
 import Footer from '../components/Footer'
 import InHouseCoffee from '../components/InHouseCoffee'
+import MobileMenu from '../components/MobileMenu'
 const Home = () => {
+  const [menuOpen, setMenuOpen] = React.useState(false);
   return (
     <>
         <div className="gyan-container">
-          <Header />
+          {menuOpen == true ? (
+            <MobileMenu setMenuOpen={setMenuOpen} />
+          ) : (
+            <></>
+          )}
+          <Header setMenuOpen={setMenuOpen}/>
           <div className="page-content">
             <StaticOnlyWebsite />
             <Hero />
