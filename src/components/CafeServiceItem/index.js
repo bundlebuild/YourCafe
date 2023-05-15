@@ -16,7 +16,7 @@ const CafeServiceItem = ({data}) => {
                 {data.description}
             </div>
             <div className="cafe-service-item-cta">
-                <button className="btn-primary small-btn">
+                <button className="btn-primary small-btn" onClick={() => window.location = "#LOCATION"}>
                     Book this 
                 </button>
             </div>
