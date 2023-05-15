@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/YourCafe/static/css/main.1db12ad0.css",
+    "main.css": "/YourCafe/static/css/main.3ec9db78.css",
     "main.js": "/YourCafe/static/js/main.5caf8621.js",
     "static/js/787.ad673406.chunk.js": "/YourCafe/static/js/787.ad673406.chunk.js",
     "static/media/cafeHero.jpg": "/YourCafe/static/media/cafeHero.dd7eb259d69f8cf5638d.jpg",
@@ -15,12 +15,12 @@
     "static/media/close.svg": "/YourCafe/static/media/close.2d4ecae55d94008b1aec.svg",
     "index.html": "/YourCafe/index.html",
     "static/media/hamburger.svg": "/YourCafe/static/media/hamburger.7ba2bab65f05dc7444b1.svg",
-    "main.1db12ad0.css.map": "/YourCafe/static/css/main.1db12ad0.css.map",
+    "main.3ec9db78.css.map": "/YourCafe/static/css/main.3ec9db78.css.map",
     "main.5caf8621.js.map": "/YourCafe/static/js/main.5caf8621.js.map",
     "787.ad673406.chunk.js.map": "/YourCafe/static/js/787.ad673406.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1db12ad0.css",
+    "static/css/main.3ec9db78.css",
     "static/js/main.5caf8621.js"
   ]
 }
